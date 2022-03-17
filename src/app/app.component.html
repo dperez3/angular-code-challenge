@@ -1,0 +1,39 @@
+<h1>Code Challenge: Write a Component</h1>
+<div id="instructions">
+  <h3>#1) Write a Component that...</h3>
+  <ul>
+    <li>Takes a Person Id property.</li>
+    <li>
+      Fetches <code>AbcService.GetAbcData()</code> for the given Person Id...
+      <ul>
+        <li>... upon loading/mounting.</li>
+        <li>
+          ... everytime the Person Id changes and <i>only</i> if it changes.
+        </li>
+      </ul>
+    </li>
+    <li>
+      Shows <code>&lt;apple /&gt;</code> until
+      <code>AbcService.GetAbcData()</code> returns.
+    </li>
+    <li>
+      If <code>GetAbcData()</code>'s <code>result</code> is <code>true</code>,
+      then show <code>&lt;banana /&gt;</code>.
+    </li>
+    <li>
+      If <code>GetAbcData()</code>'s <code>result</code> is <code>false</code>,
+      then show <code>&lt;carrot /&gt;</code>.
+    </li>
+  </ul>
+
+  <h3>#2) Use Component within <code>div#componentGoesHere</code>.</h3>
+  <ul>
+    <li>Use any Person Id you'd like.</li>
+  </ul>
+</div>
+
+<hr />
+<div id="componentGoesHere">
+  <!-- Put component here. Use any Person Id you'd like. -->
+</div>
+<hr />
